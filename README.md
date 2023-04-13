@@ -1,0 +1,1 @@
+Use: `degit agency-kit/notion-cms-plugin-starter`
