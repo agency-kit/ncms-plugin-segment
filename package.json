@@ -23,12 +23,16 @@
     "publish": "changeset publish",
     "test": "NODE_OPTIONS=--enable-source-maps npx c8 uvu test",
     "build:test": "npm run build && npm run test"
-
+  },
+  "dependencies": {
+    "@agency-kit/notion-cms": "^0.3.0",
+    "@changesets/cli": "^2.26.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
     "@rollup/plugin-terser": "^0.4.0",
     "c8": "^7.13.0",
+    "dotenv": "^16.0.3",
     "esbuild": "^0.17.15",
     "eslint": "^8.38.0",
     "fp-ts": "^2.13.1",
@@ -43,8 +47,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "dependencies": {
-    "@changesets/cli": "^2.26.1"
   }
 }
