@@ -6,4 +6,5 @@ example/
 .changeset/
 .vscode/
 tsconfig.json
-eslintrc.js
+eslintrc.cjs
+*.tgz

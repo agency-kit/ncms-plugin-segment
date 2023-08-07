@@ -5,7 +5,6 @@ export default {
   input: 'src/index.ts',
   plugins: [esbuild(), terser()],
   output: [
-    { format: 'esm', file: './dist/index.mjs' },
-    { format: 'cjs', file: './dist/index.js' },
-  ]
-};
+    { format: 'esm', file: './dist/index.js' },
+  ],
+}
