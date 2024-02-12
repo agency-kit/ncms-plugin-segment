@@ -1,5 +1,11 @@
 # ncms-plugin-segment
 
+## 0.3.1
+
+### Patch Changes
+
+- d796b50: Upd: add repo to package.json.
+
 ## 0.3.0
 
 ### Minor Changes
