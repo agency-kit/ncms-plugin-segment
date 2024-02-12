@@ -5,6 +5,10 @@
   "description": "Plugin template for NotionCMS",
   "author": "Jacob Milhorn",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agency-kit/ncms-plugin-segment.git"
+  },
   "keywords": [
     "notionCMS",
     "CMS",
